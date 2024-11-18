@@ -1,3 +1,10 @@
+import hero from "../components/Hero";
+import Navbar from "../components/NavBar"
+
 export default function Home() {
-    return <div className="bg-slate-500 text-center">Home Page</div>;
+    return( <>
+    <NavBar/>
+    <Hero/>
+    </> 
+  );
   }
